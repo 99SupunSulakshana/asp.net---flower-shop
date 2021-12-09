@@ -1,0 +1,102 @@
+﻿#Head {
+    background-color: coral;
+    color: ghostwhite;
+    text-align: center;
+    width: 100%;
+    height: 100px;
+    font-family: "Lato", sans-serif;
+}
+
+#menu {
+    background-color: lavender;
+    color: black;
+    width: 100%;
+    height: 48px;
+    font-family: "Lato", sans-serif;
+}
+
+#body1 {
+    width: 100%;
+    height: auto;
+    
+    font-family: "Lato", sans-serif;
+    border-radius: 5px;
+    background-color: floralwhite;
+    padding: 20px;
+}
+
+footer {
+    background-color: lavender;
+    color: black;
+    width: 100%;
+    height: 120px;
+}
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+    input[type=submit]:hover {
+        background-color: #45a049;
+    }
+
+.container {
+    border-radius: 5px;
+    background-color: lavender;
+    padding: 20px;
+}
+body {font-family: Arial, Helvetica, sans-serif;}
+* {box-sizing: border-box;}
+.tab {
+    overflow: hidden;
+    border: 1px solid #ccc;
+    background-color: #f1f1f1;
+}
+
+    /* Style the buttons inside the tab */
+    .tab button {
+        background-color: inherit;
+        float: left;
+        border: none;
+        outline: none;
+        cursor: pointer;
+        padding: 14px 16px;
+        transition: 0.3s;
+        font-size: 17px;
+    }
+
+        /* Change background color of buttons on hover */
+        .tab button:hover {
+            background-color: #ddd;
+        }
+
+        /* Create an active/current tablink class */
+        .tab button.active {
+            background-color: #ccc;
+        }
+
+/* Style the tab content */
+.tabcontent {
+    display: none;
+    padding: 6px 12px;
+    border: 1px solid #ccc;
+    border-top: none;
+}
+.fa-anchor, .fa-coffee {
+    font-size: 200px
+}

@@ -1,0 +1,32 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site1.master.cs" Inherits="WebApplication5.Site1" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title>Web Application</title>
+    <link href="style/StyleSheet1.css" rel="stylesheet" type="text/css" />
+    <link rel="style/StyleSheet1.css" href="https://www.w3schools.com/w3css/4/w3.css">
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div id="Head">
+            <h1>BLUE LOTUS FLOWERS - ONLINE</h1>
+        </div>
+     
+        <div id="menu">
+        <asp:HyperLink ID="hlHome" runat="server" NavigateUrl="~/Home.aspx">Home</asp:HyperLink>&nbsp;&nbsp;
+        <asp:HyperLink ID="hlAboutUs" runat="server" NavigateUrl="~/aboutus.aspx">AboutUS</asp:HyperLink>&nbsp;&nbsp;
+        <asp:HyperLink ID="hlContact" runat="server" NavigateUrl="~/contact.aspx">Contact</asp:HyperLink>&nbsp;&nbsp;
+            <asp:HyperLink ID="hlOrder" runat="server" NavigateUrl="~/WebForm5.aspx">Click Order</asp:HyperLink>&nbsp;&nbsp;
+        </div>
+        <div id="body1">
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+
+    </form>
+</body>
+</html>
